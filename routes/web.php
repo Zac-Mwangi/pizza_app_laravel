@@ -17,12 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// pizza routes
-$pizza_controller = "App\Http\Controllers";
+// // pizza routes
+// $pizza_controller = "App\Http\Controllers";
 
-Route::get('/pizzas', $pizza_controller.'\PizzaController@index');
-Route::post('/pizzas', $pizza_controller.'\PizzaController@store');
-Route::get('/pizzas/{id}', $pizza_controller.'\PizzaController@show');
-Route::delete('/pizzas/{id}', $pizza_controller.'\pizzaController@destroy');
+// Route::get('/pizzas', $pizza_controller.'\PizzaController@index');
+// Route::post('/pizzas', $pizza_controller.'\PizzaController@store');
+// Route::get('/pizzas/{id}', $pizza_controller.'\PizzaController@show');
+// Route::delete('/pizzas/{id}', $pizza_controller.'\pizzaController@destroy');
 
 
